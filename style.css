@@ -5,22 +5,25 @@
 	font-family: sans-serif;
 }
 .bgimg{
-	height: 100%;
 	width: 100%;
+	height: 110vh;
 	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(baner1.jpg);
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 110%;
+	background-attachment: fixed;
 	position: absolute;
+	background-repeat: no-repeat;
 }
 .form-box{
 	width: 380px;
 	height: 480px;
 	padding: 5px;
-	background: #fff;
+	background: #f1f1f1;
 	margin: 6% auto;
 	position: relative;
 	overflow: hidden;
 	box-shadow: 0 0 20px 9px rgba(61, 56, 56);
+
 }
 .button{
 	position: relative;
